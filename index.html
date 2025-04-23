@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Button Click -->
+    <button id="click-button">Click Me!</button>
+
+    <!-- Keypress Detection -->
+    <div class="keypress">
+      <input type="text" id="key-input" placeholder="Press a key..." />
+      <div id="key-code"></div>
+    </div>
+
+    <!-- Double Click -->
+    <button id="dbClick">Double Click Me!</button>
+
+    <!-- Interactive Elements -->
+    <button id="change-button">Change Me!</button>
+
+    <!-- image Gallery  -->
+    <div class="image-gallery">
+      <img
+        src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=1024x1024&w=is&k=20&c=htyLzgrvGN1McCRuSkQIrG1BuBmNLJUR-nBBKxb86ko="
+        alt="image 1"
+        id="main-image"
+      />
+
+      <div id="thumbnails">
+        <img
+          src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=1024x1024&w=is&k=20&c=htyLzgrvGN1McCRuSkQIrG1BuBmNLJUR-nBBKxb86ko="
+          alt="image 1"
+        />
+        <img
+          src="https://media.istockphoto.com/id/1830126474/photo/portrait-of-a-business-man-sitting-in-an-office.jpg?s=1024x1024&w=is&k=20&c=y6ekaWOU98cltT8YkEn8dykF4-hLdCu3nNBGPvC4AG8="
+          alt="image 2"
+        />
+        <img
+          src="https://media.istockphoto.com/id/1434116614/photo/teamwork-diversity-and-sales-manager-planning-branding-ideas-with-a-creative-designer-on-a.jpg?s=1024x1024&w=is&k=20&c=mYCVxJbh4-pWGLlvkG47M6X6aGVg_UOrkJ6doNhktoM="
+          alt="image 3"
+        />
+        <img
+          src="https://media.istockphoto.com/id/1369199360/photo/portrait-of-a-handsome-young-businessman-working-in-office.jpg?s=1024x1024&w=is&k=20&c=-xjY_sj5IU0ibPJn3t8Qf63XyBlunViU3oeT2RwJ3RE="
+          alt="image 4"
+        />
+      </div>
+    </div>
+
+    <!-- Tabs or Accordion-Style -->
+    <div id="tabs">
+      <button id="tab1-button">Tab 1</button>
+      <button id="tab2-button">Tab 2</button>
+      <button id="tab3-button">Tab 3</button>
+
+      <div id="tab1-content">Content 1</div>
+      <div id="tab2-content">Content 2</div>
+      <div id="tab3-content">Content 3</div>
+    </div>
+
+    <!-- Form Validation -->
+    <form id="my-form">
+      <label for="name">Name:</label>
+      <input id="name" type="text" />
+      <label for="email">Email:</label>
+      <input id="email" type="email" />
+      <button id="submit-button">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

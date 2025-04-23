@@ -1,0 +1,96 @@
+#click-button,
+#dbClick,
+#change-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover Effects */
+#click-button:hover {
+  background-color: yellow;
+}
+
+.keypress {
+  margin-top: 20px;
+}
+
+.keypress input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #eec;
+}
+
+.keypress input:focus {
+  outline: none;
+}
+
+.keypress #key-code {
+  margin: 5px;
+  color: gray;
+}
+
+.image-gallery {
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Tabs or Accordion */
+#tabs {
+  margin-top: 20px;
+}
+
+#tabs button {
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  margin: 10px;
+}
+
+#tabs div {
+  display: none;
+  margin: 10px;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+/* Form Validation */
+#my-form {
+  margin: 20px;
+  width: 400px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#my-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eec;
+}
+
+#my-form input:focus {
+  outline: none;
+}
+
+#my-form button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#my-form button:hover {
+  background-color: yellow;
+}
